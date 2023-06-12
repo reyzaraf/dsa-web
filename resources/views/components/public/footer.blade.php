@@ -3,7 +3,7 @@
           <div class="footer_box">
             <div class="footer_header">
               <div class="footer_logo text-center">
-                <img src="assets/img/logo.png" alt="evento">
+              <img width="350px" src="{{asset('dsa/assets/img/logo.png')}}" alt="evento">
               </div>
             </div>
             <div class="footer_box_body text-center">
