@@ -15,7 +15,7 @@
         <div class="page-titles">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('admin.index') }}">Dashboard</a></li>
-                <li class="breadcrumb-item"><a href="{{ route('admin.trainings.index') }}">Blogs or News</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('admin.blogs.index') }}">Blogs or News</a></li>
                 <li class="breadcrumb-item active"><a href="javascript:void(0)">Create</a></li>
             </ol>
         </div>
