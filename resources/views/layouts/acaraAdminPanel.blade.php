@@ -30,11 +30,11 @@
     <div id="main-wrapper">
         <div class="nav-header">
             <a href="{{ route('landingpage') }}" class="brand-logo">
-                <img class="logo-abbr" src="{{ asset('acaraAdminPanel/xhtml/images/logo.png') }}" alt="">
-                <img class="logo-compact" src="{{ asset('acaraAdminPanel/xhtml/images/logo-text.png') }}"
+                <img class="logo-abbr" src="{{ asset('dsa-web/assets/img/logo.png') }}" alt="">
+                <img class="logo-compact" src="{{ asset('dsa-web/assets/img/logo.png') }}"
                     alt="">
-                <img class="brand-title" src="{{ asset('acaraAdminPanel/xhtml/images/logo-text.png') }}"
-                    alt="">
+                <!-- <img class="brand-title" src="{{ asset('dsa-web/assets/img/logo.png') }}"
+                    alt=""> -->
             </a>
             <div class="nav-control">
                 <div class="hamburger">
