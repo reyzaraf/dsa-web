@@ -6,7 +6,7 @@
 @section('content')
     <section id="home" class="home-cover">
     <div class="cover_slider owl-carousel owl-theme">
-      <div class="cover_item one" style="background: url('dsa-web/assets/img/bg/bg.jpg');">
+      <div class="cover_item one" style="background: url('dsa/assets/img/bg/bg.jpg');">
         <div class="slider_content">
           <div class="slider-content-inner">
             <div class="container">
@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <div class="cover_item" style="background: url('dsa-web/assets/img/bg/bg-2.JPG');">
+      <div class="cover_item" style="background: url('dsa/assets/img/bg/bg-2.JPG');">
         <div class="slider_content">
           <div class="slider-content-inner two">
             <div class="container">
@@ -42,7 +42,7 @@
         </div>
       </div>
 
-      <div class="cover_item" style="background: url('{{asset('dsa-web/assets/img/bg/bg-3.JPG')}}');">
+      <div class="cover_item" style="background: url('{{asset('dsa/assets/img/bg/bg-3.JPG')}}');">
         <div class="slider_content mt70">
           <div class="slider-content-inner three">
             <div class="container">
@@ -104,7 +104,7 @@
           </div>
 
           <div class="col-md-4">
-            <img src="{{ asset('dsa-web/assets/img/bg/bapak kapolda dan ibu salam.png') }}" alt="" class="img-fluid">
+            <img src="{{ asset('dsa/assets/img/bg/bapak kapolda dan ibu salam.png') }}" alt="" class="img-fluid">
           </div>
         </div>
       </div>
@@ -231,7 +231,7 @@
           <div class="col-12 col-md-6 col-lg-3">
             <div class="card">
               <div class="img-container">
-              <img class="card-img-top" src="{{asset('dsa-web/assets/img/team/01/kapolda-sulut.JPG')}}" alt="">
+              <img class="card-img-top" src="{{asset('dsa/assets/img/team/01/kapolda-sulut.JPG')}}" alt="">
               </div>
               <div class="card-body p-3">
                 <h5 class="card-title mb-0">Irjen Pol Drs. SETYO BUDIYANTO, S.H., M.H.</h5>
@@ -244,7 +244,7 @@
             <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#modalForumRektor">
               <div class="card">
                 <div class="img-container">
-                <img class="card-img-top" src="{{ asset('dsa-web/assets/img/team/01/rektor-unima.jpg') }}" alt="">
+                <img class="card-img-top" src="{{ asset('dsa/assets/img/team/01/rektor-unima.jpg') }}" alt="">
                 </div>
                 <div class="card-body p-3">
                   <h5 class="card-title mb-0">Prof. Dr. Deitje Adolfien<br> Katuuk, M.Pd.</h5>
@@ -257,7 +257,7 @@
           <div class="col-12 col-md-6 col-lg-3">
             <div class="card">
               <div class="img-container">
-              <img class="card-img-top" src="{{asset('dsa-web/assets/img/team/01/dir-ik.JPG')}}" alt="">
+              <img class="card-img-top" src="{{asset('dsa/assets/img/team/01/dir-ik.JPG')}}" alt="">
               </div>
               <div class="card-body p-3">
                 <h5 class="card-title mb-0">KBP Dr (Can) Albert B Sihombing M.Si., M.A.</h5>
@@ -270,7 +270,7 @@
             <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#modalKadispar">
               <div class="card">
                 <div class="img-container">
-                <img class="card-img-top" src="{{asset('dsa-web/assets/img/team/01/kadispar.jpg')}}" alt="">
+                <img class="card-img-top" src="{{asset('dsa/assets/img/team/01/kadispar.jpg')}}" alt="">
                 </div>
                 <div class="card-body p-3">
                   <h5 class="card-title mb-0">Henry Kaitjily</h5>
@@ -284,7 +284,7 @@
             <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#modalKadiskominfo">
               <div class="card">
                 <div class="img-container">
-                <img class="card-img-top" src="{{ asset('dsa-web/assets/img/team/01/kadis-kominfo.jpeg') }}" alt="">
+                <img class="card-img-top" src="{{ asset('dsa/assets/img/team/01/kadis-kominfo.jpeg') }}" alt="">
                 </div>
                 <div class="card-body p-3">
                   <h5 class="card-title mb-0">Evans Steven Liow, S. Sos.</h5>
@@ -297,7 +297,7 @@
           <div class="col-12 col-md-6 col-lg-3">
             <div class="card">
               <div class="img-container">
-              <img class="card-img-top" src="{{ asset('dsa-web/assets/img/team/01/kadis-pppa.jpg') }}" alt="">
+              <img class="card-img-top" src="{{ asset('dsa/assets/img/team/01/kadis-pppa.jpg') }}" alt="">
               </div>
               <div class="card-body p-3">
                 <h5 class="card-title mb-0">dr. Kartika Devi Tanos, MARS</h5>
@@ -309,7 +309,7 @@
           <div class="col-12 col-md-6 col-lg-3">
             <div class="card">
               <div class="img-container">
-              <img class="card-img-top" src="{{ asset('dsa-web/assets/img/team/01/kabankesbangpol.JPG') }}" alt="">
+              <img class="card-img-top" src="{{ asset('dsa/assets/img/team/01/kabankesbangpol.JPG') }}" alt="">
               </div>
               <div class="card-body p-3">
                 <h5 class="card-title mb-0">Fery Sangian</h5>
@@ -322,7 +322,7 @@
             <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#modalFKUB">
               <div class="card">
                 <div class="img-container">
-                <img class="card-img-top" src="{{ asset('dsa-web/assets/img/team/01/fkub.JPG') }}" alt="">
+                <img class="card-img-top" src="{{ asset('dsa/assets/img/team/01/fkub.JPG') }}" alt="">
                 </div>
                 <div class="card-body p-3">
                   <h5 class="card-title mb-0">Pdt. Lucky I. Rumopa, MTh.</h5>
@@ -344,7 +344,7 @@
           <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#exampleModal">
             <div class="speaker_box">
               <div class="speaker_img">
-                <img src="{{ asset('dsa-web/assets/img/team/ridwan-pasorong.jpeg') }}" alt="" loading="lazy">
+                <img src="{{ asset('dsa/assets/img/team/ridwan-pasorong.jpeg') }}" alt="" loading="lazy">
                 <div class="info_box">
                   <h5 class="name">Ridwan Pasorong</h5>
                   <p class="position">Ketua Umum</p>
@@ -356,7 +356,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="speaker_box">
             <div class="speaker_img">
-              <img src="{{ asset('dsa-web/assets/img/team/jerry.JPG') }}" alt="" loading="lazy">
+              <img src="{{ asset('dsa/assets/img/team/jerry.JPG') }}" alt="" loading="lazy">
               <div class="info_box">
                 <h5 class="name">Jerry Paulus</h5>
                 <p class="position">Kabid Pengabdian Masyarakat</p>
@@ -368,7 +368,7 @@
           <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#modalKabidInvestigasi">
           <div class="speaker_box">
             <div class="speaker_img">
-              <img src="{{ asset('dsa-web/assets/img/team/ines.JPG') }}" alt="" loading="lazy">
+              <img src="{{ asset('dsa/assets/img/team/ines.JPG') }}" alt="" loading="lazy">
               <div class="info_box">
                 <h5 class="name">Perpetua Ines Sarkol</h5>
                 <p class="position">Kabid Ideologi Pancasila & Bela Negara</p>
@@ -382,7 +382,7 @@
           <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#modalKabidInvestigasi">
             <div class="speaker_box">
               <div class="speaker_img">
-                <img src="{{ asset('dsa-web/assets/img/team/IMG_2596.JPG') }}" alt="" loading="lazy">
+                <img src="{{ asset('dsa/assets/img/team/IMG_2596.JPG') }}" alt="" loading="lazy">
                 <div class="info_box">
                   <h5 class="name">Filio J.S. Lolong</h5>
                   <p class="position">Kabid Investigasi</p>
@@ -396,7 +396,7 @@
           <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#modalKabidKreatif">
             <div class="speaker_box">
               <div class="speaker_img">
-                <img src="{{ asset('dsa-web/assets/img/team/eren.JPG') }}" alt="" loading="lazy">
+                <img src="{{ asset('dsa/assets/img/team/eren.JPG') }}" alt="" loading="lazy">
                 <div class="info_box">
                   <h5 class="name">Sharon Z.A. Kampong</h5>
                   <p class="position">Kabid Kreatifitas & Kewirausahaan</p>
@@ -409,7 +409,7 @@
           <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#modalMediaTekno">
             <div class="speaker_box">
               <div class="speaker_img">
-                <img src="{{ asset('dsa-web/assets/img/team/arafi.JPG') }}" alt="" loading="lazy">
+                <img src="{{ asset('dsa/assets/img/team/arafi.JPG') }}" alt="" loading="lazy">
                 <div class="info_box">
                   <h5 class="name">M. Ar Raafi Laupu</h5>
                   <p class="position">Kabid Media & Teknologi</p>
@@ -421,7 +421,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="speaker_box">
             <div class="speaker_img">
-              <img src="{{ asset('dsa-web/assets/img/team/irham.JPG') }}" alt="" loading="lazy">
+              <img src="{{ asset('dsa/assets/img/team/irham.JPG') }}" alt="" loading="lazy">
               <div class="info_box">
                 <h5 class="name">M. Irham</h5>
                 <p class="position">Kabid Organisasi & Komunikasi</p>
@@ -432,7 +432,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="speaker_box">
             <div class="speaker_img">
-              <img src="{{ asset('dsa-web/assets/img/team/friska.JPG') }}" alt="" loading="lazy">
+              <img src="{{ asset('dsa/assets/img/team/friska.JPG') }}" alt="" loading="lazy">
               <div class="info_box">
                 <h5 class="name">Friska D. Manalu</h5>
                 <p class="position">Kabid Rekrutmen & Kaderisasi</p>
@@ -684,7 +684,7 @@
             <p class="fw-bold mb-0">2023-2024</p>
           </div>
           <h5 class="text-center mb-3">Struktur Pengurus</h5>
-          <img src="{{asset('dsa-web/assets/img/modal/struktur-bid-media-teknologi.jpg')}}" alt="">
+          <img src="{{asset('dsa/assets/img/modal/struktur-bid-media-teknologi.jpg')}}" alt="">
         </div>
       </div>
     </div>
@@ -706,7 +706,7 @@
             <p class="mb-0">EVANS STEVEN LIOW, S.Sos., MM</p>
           </div>
           <h5 class="text-center mb-2">Struktur Organisasi</h5>
-          <img src="{{asset('dsa-web/assets/img/modal/struktur-bid-investigasi.png')}}" alt="" class="mb-2">
+          <img src="{{asset('dsa/assets/img/modal/struktur-bid-investigasi.png')}}" alt="" class="mb-2">
           
           <h5 class="mb-2">SAPTA PROGRAM KERJA BIDANG INVESTIGASI</h5>
           <ol>
@@ -882,58 +882,58 @@
       </div>
       <div class="brand_carousel owl-carousel">
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/1.jpg')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/1.jpg')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/2.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/2.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/3.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/3.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/4.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/4.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/5.jpeg')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/5.jpeg')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/6.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/6.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/7.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/7.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/8.jpg')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/8.jpg')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/9.jpg')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/9.jpg')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/10.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/10.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/11.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/11.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/12.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/12.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/13.jpeg')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/13.jpeg')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/14.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/14.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/15.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/15.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/16.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/16.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/17.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/17.png')}}" alt="brand">
         </div>
         <div class="brand_item text-center">
-          <img src="{{ asset('dsa-web/assets/img/brands/18.png')}}" alt="brand">
+          <img src="{{ asset('dsa/assets/img/brands/18.png')}}" alt="brand">
         </div>
       </div>
     </div>
@@ -945,7 +945,7 @@
           <div class="footer_box">
             <div class="footer_header">
               <div class="footer_logo text-center">
-                <img width="350px" src="{{asset('dsa-web/assets/img/logo.png')}}" alt="evento">
+                <img width="350px" src="{{asset('dsa/assets/img/logo.png')}}" alt="evento">
               </div>
             </div>
             <div class="footer_box_body text-center">

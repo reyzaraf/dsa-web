@@ -3,7 +3,7 @@
       <a class="navbar-brand logo" href="#">
         <img style="    float: left;
     max-width: 70px;
-    margin-right: 3px;" src="{{ asset('dsa-web/assets/img/logo.png') }}" alt="Evento" />
+    margin-right: 3px;" src="{{ asset('dsa/assets/img/logo.png') }}" alt="Evento" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false"
         aria-label="Toggle navigation">

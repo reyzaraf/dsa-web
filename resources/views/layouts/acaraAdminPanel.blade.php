@@ -30,10 +30,10 @@
     <div id="main-wrapper">
         <div class="nav-header">
             <a href="{{ route('landingpage') }}" class="brand-logo">
-                <img class="logo-abbr" src="{{ asset('dsa-web/assets/img/logo.png') }}" alt="">
-                <img class="logo-compact" src="{{ asset('dsa-web/assets/img/logo.png') }}"
+                <img class="logo-abbr" src="{{ asset('dsa/assets/img/logo.png') }}" alt="">
+                <img class="logo-compact" src="{{ asset('dsa/assets/img/logo.png') }}"
                     alt="">
-                <!-- <img class="brand-title" src="{{ asset('dsa-web/assets/img/logo.png') }}"
+                <!-- <img class="brand-title" src="{{ asset('dsa/assets/img/logo.png') }}"
                     alt=""> -->
             </a>
             <div class="nav-control">
