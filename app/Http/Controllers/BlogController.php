@@ -183,10 +183,12 @@ class BlogController extends Controller
     public function showPublic($slug)
     {
         $blog = Blog::where('slug', $slug)->firstOrFail();
+        $rand = Blog::inRandomOrder()->limit(3)->get();
         if ($blog->status == 'Diterima') {
-            return view('blogs.show', compact('blog'));
+            return view('blogs.show', compact('blog', 'rand'));
         }else{
             echo "Article not found";
+            echo "Silahkan Kembali kehalaman Sebelumnya";
             // return view('/', compact('blog'));
         }
     }
