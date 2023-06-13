@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>@yield('title', 'Acara Admin Panel')</title>
+    <title>@yield('title', 'DUTA SULUT AMAN - PANEL')</title>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('dsa/img/logo.png') }}">
     <link rel="stylesheet" href="{{ asset('acaraAdminPanel/xhtml/vendor/chartist/css/chartist.min.css') }}">
     <link href="{{ asset('acaraAdminPanel/xhtml/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}"
         rel="stylesheet">
