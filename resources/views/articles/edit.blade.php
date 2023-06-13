@@ -15,7 +15,7 @@
         <div class="page-titles">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('admin.index') }}">Dashboard</a></li>
-                <li class="breadcrumb-item"><a href="{{ route('admin.articles.index') }}">Blogs or News</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('admin.articles.index') }}">articles</a></li>
                 <li class="breadcrumb-item active"><a href="javascript:void(0)">Edit</a></li>
             </ol>
         </div>
@@ -23,7 +23,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <form action="{{ route('admin.blogs.update', $blog->id) }}" method="POST"
+                        <form action="{{ route('admin.articles.update', $blog->id) }}" method="POST"
                             enctype="multipart/form-data">
                             @csrf
                             @method('PATCH')
