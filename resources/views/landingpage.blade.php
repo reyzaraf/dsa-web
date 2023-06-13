@@ -801,7 +801,6 @@
         </h3>
       </div>
       <div class="row">
-
       @foreach ($articles as $article)
                     <div class="col-12 col-md-4 pt50">
                         <div class="card">
@@ -827,6 +826,9 @@
                         </div>
                     @endforeach
 
+      </div>
+      <div class="d-flex justify-content-end pt50">
+        <a href="{{ route('articles.indexPublic') }}" class="btn btn-primary">Artikel Selengkapnya</a>
       </div>
     </div>
   </section>
@@ -867,6 +869,9 @@
                         </div>
                     @endforeach
   
+      </div>
+      <div class="d-flex justify-content-end pt50">
+        <a href="{{ route('blogs.indexPublic') }}" class="btn btn-primary">Berita Selengkapnya</a>
       </div>
     </div>
   </section>

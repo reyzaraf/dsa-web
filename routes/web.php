@@ -48,7 +48,9 @@ Route::get('/', function () {
 
     return view('landingpage', compact('articles', 'blogs'));
 })->name('landingpage');
-
+Route::get('/tim', function () {
+    return view('tim');
+})->name('timpage');
 Route::get('/trainings', [StandardController::class, 'indexPublic'])->name('trainings.show');
 Route::get('/services/{id}', [ServiceController::class, 'show'])->name('services.show');
 Route::get('/berita', [BlogController::class, 'indexPublic'])->name('blogs.indexPublic');

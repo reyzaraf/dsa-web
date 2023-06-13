@@ -18,7 +18,7 @@
             <a class="nav-link" href="#about">Tentang Kami</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#tim">Tim Kami</a>
+            <a class="nav-link {{ request()->routeIs(['timpage']) ? 'active' : '' }}" href="{{ route('timpage') }}">Tim Kami</a>
           </li>
           <li class="nav-item">
           <a href="{{ route('articles.indexPublic') }}"

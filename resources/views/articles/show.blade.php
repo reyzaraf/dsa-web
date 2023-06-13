@@ -31,7 +31,50 @@
                 </div>
             </div>
             <div class="content-desc">
-            {!! $article->body !!}
+               <div class="row">
+               <div class="col-lg-8 col-sm-12">
+                    {!! $article->body !!}
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                <div>
+                        <div class="section_title mb50">
+                            <h3 class="title">
+                                Artikel Lainnya
+                            </h3>
+                        </div>
+                        <div class="row" >
+                        @foreach ($rand as $rands)    
+                        <div class="col-lg-12 col-sm-4" >
+                                <div id="artnews-content-sidepanel">
+                                <div class="card">
+                                    <img class="card-img-top" src="{{ Storage::disk('public')->url($rands->thumbnail) }}" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="title-wrapper">
+                                            <h5 class="card-title mb-0">{{$rands->title}}</h5>
+                                        </div>
+                                        <div class="desc-wrapper">
+                                            <p class="card-text">{{$rands->short_description}}
+                                        </p></div>
+                                        <div class="writer-wrapper d-flex align-items-center pt-3 pb-2">
+                                            <img src="{{ Storage::disk('public')->url($rands->user->image) ? asset('acaraAdminPanel/xhtml/images/profile/17.jpg')  : 'https://dummyimage.com/34x34/000/fff&amp;text=+' }}" alt="" class="writer-img">
+                                            <div class="writer-info">
+                                                <p class="writer-name mb-0">{{$rands->user->name}}</p>
+                                                <p class="date mb-0">{{ $rands->created_at->format('d F Y') }}</p>
+                                            </div>
+                                        </div>
+                                        <p></p>
+                                        <a href="{{ route('articles.showPublic', $rands->slug) }}" class="btn btn-primary">Baca selengkapnya</a>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
+
+                        </div>
+                <!--  -->
+                </div>
+               </div>
             </div>
 
         </div>

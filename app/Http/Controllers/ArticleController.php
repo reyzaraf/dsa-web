@@ -184,8 +184,9 @@ class ArticleController extends Controller
     public function showPublic($slug)
     {
         $article = Article::where('slug', $slug)->firstOrFail();
+        $rand = Article::inRandomOrder()->limit(2)->get();
         if ($article->status == 'Diterima') {
-            return view('articles.show', compact('article'));
+            return view('articles.show', compact('article','rand'));
         }else{
             echo "Article not found";
             return view('/', compact('article'));
