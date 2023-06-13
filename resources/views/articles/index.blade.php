@@ -36,7 +36,7 @@
                     <div class="card-header">
                         <h4 class="card-title">articles or News</h4>
                         <h4 class="card-title">
-                            <a href="{{ route('admin.articles.create') }}"class="add-menu-sidebar" >Create New</a>
+                            <a href="{{ route('admin.articles.create') }}">Create New</a>
                         </h4>
                     </div>
                     <div class="card-body">

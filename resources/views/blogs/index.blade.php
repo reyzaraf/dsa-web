@@ -36,7 +36,7 @@
                     <div class="card-header">
                         <h4 class="card-title">News / Berita</h4>
                         <h4 class="card-title">
-                            <a href="{{ route('admin.blogs.create') }}"class="add-menu-sidebar" >Create New</a>
+                            <a href="{{ route('admin.blogs.create') }}">Create New</a>
                         </h4>
                     </div>
                     <div class="card-body">
@@ -86,9 +86,8 @@
                                             <td>{{ $blog->created_at->diffForHumans() }}</td>
                                             <td>
                                                 <div class="d-flex flex-column flex-md-row justify-content-center"
-                                                style="gap: 0.5rem">
-                                                @if($blog->status == 'Draft' or $blog->status == 'Ditolak')
-                                                    @can('systems control')
+                                                    style="gap: 0.5rem">
+                                                    @can('blogs update')
                                                         <a href="{{ route('admin.blogs.review', $blog->slug) }}"
                                                             class="btn btn-sm btn-secondary">Review</a>
                                                     @endcan
@@ -99,9 +98,7 @@
                                                     @can('blogs delete')
                                                     <span class="btn btn-sm btn-danger" id="deleteButton">Delete</span>
                                                     @endcan
-                                                    @endif
                                                 </div>
-                                                
                                             </td>
                                             <form action="{{ route('admin.blogs.destroy', $blog->id) }}" method="post"
                                                 id="destroy-{{ $blog->id }}" style="display: none">
