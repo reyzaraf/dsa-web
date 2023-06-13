@@ -220,7 +220,7 @@
   </section>
 
   <section class="pb100" id="tim">
-    <div class="container-fluid">
+    <div class="container">
       <div class="pb100">
         <div class="section_title mb50">
           <h3 class="title">
