@@ -23,14 +23,14 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <form action="{{ route('admin.articles.update', $blog->id) }}" method="POST"
+                        <form action="{{ route('admin.articles.update', $article->id) }}" method="POST"
                             enctype="multipart/form-data">
                             @csrf
                             @method('PATCH')
                             <div class="form-group">
                                 <label for="title" class="text-capitalize">Title</label>
                                 <input type="text" class="form-control" id="title" name="title"
-                                    placeholder="Training Name" style="color: #656773;" value="{{ $blog->title ?? '' }}"
+                                    placeholder="Training Name" style="color: #656773;" value="{{ $article->title ?? '' }}"
                                     required>
                                 @error('title')
                                     <div class="text-sm text-danger">{{ $message ?? 'Something error' }}</div>
@@ -46,14 +46,14 @@
                             </div> --}}
                             <div class="form-group">
                                 <label for="body" class="text-capitalize">Content</label>
-                                <textarea name="body" id="body" rows="10" class="form-control">{!! $blog->body ?? 'Content' !!}</textarea>
+                                <textarea name="body" id="body" rows="10" class="form-control">{!! $article->body ?? 'Content' !!}</textarea>
                                 @error('body')
                                     <div class="text-sm text-danger">{{ $message ?? 'Something error' }}</div>
                                 @enderror
                             </div>
                             <div class="form-group">
                                 <label for="short_description" class="text-capitalize">Short Description</label>
-                                <textarea name="short_description" id="short_description" rows="10" class="form-control" style="color: #656773;">{{ @$blog->short_description }}</textarea>
+                                <textarea name="short_description" id="short_description" rows="10" class="form-control" style="color: #656773;">{{ @$article->short_description }}</textarea>
                                 @error('short_description')
                                     <div class="text-sm text-danger">{{ $message ?? 'Something error' }}</div>
                                 @enderror
