@@ -69,7 +69,7 @@
                                             </div>
                                         </div>
                                         <p></p>
-                                        <a href="{{ route('articles.showPublic', $rands->slug) }}" class="btn btn-primary">Baca selengkapnya</a>
+                                        <a href="{{ route('blogs.showPublic', $rands->slug) }}" class="btn btn-primary">Baca selengkapnya</a>
                                     </div>
                                 </div>
                                 </div>
