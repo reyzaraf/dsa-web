@@ -55,10 +55,10 @@
                                 <div class="card">
                                     <img class="card-img-top" src="{{ Storage::disk('public')->url($rands->thumbnail) }}" alt="Card image cap">
                                     <div class="card-body">
-                                        <div class="title-wrapper">
+                                        <div class="text-nowrap">
                                             <h5 class="card-title mb-0">{{$rands->title}}</h5>
                                         </div>
-                                        <div class="desc-wrapper">
+                                        <div class="text-nowrap">
                                             <p class="card-text">{{$rands->short_description}}
                                         </p></div>
                                         <div class="writer-wrapper d-flex align-items-center pt-3 pb-2">
