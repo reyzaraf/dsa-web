@@ -21,7 +21,7 @@
               </div>
               <div class="card-body p-3">
                 <h5 class="card-title mb-0">Irjen Pol Drs. SETYO BUDIYANTO, S.H., M.H.</h5>
-                <p class="card-text">Kapolda selaku Pelindung</p>
+                <p class="card-text" style="overflow-wrap: break-word;">Kapolda selaku Pelindung</p>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="card-body p-3">
                   <h5 class="card-title mb-0">Prof. Dr. Deitje Adolfien<br> Katuuk, M.Pd.</h5>
-                  <p class="card-text">Ketua Forum Rektor selaku Penasehat</p>
+                  <p class="card-text" style="overflow-wrap: break-word;">Ketua Forum Rektor selaku Penasehat</p>
                 </div>
               </div>
             </button>
@@ -47,7 +47,7 @@
               </div>
               <div class="card-body p-3">
                 <h5 class="card-title mb-0">KBP Dr (Can) Albert B Sihombing M.Si., M.A.</h5>
-                <p class="card-text">Dir Intelkam selaku Koor Pembina</p>
+                <p class="card-text" style="overflow-wrap: break-word;">Dir Intelkam selaku Koor Pembina</p>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="card-body p-3">
                   <h5 class="card-title mb-0">Henry Kaitjily</h5>
-                  <p class="card-text">Kadispar Sulut selaku Pembina</p>
+                  <p class="card-text" style="overflow-wrap: break-word;">Kadispar Sulut selaku Pembina</p>
                 </div>
               </div>
             </button>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="card-body p-3">
                   <h5 class="card-title mb-0">Evans Steven Liow, S. Sos.</h5>
-                  <p class="card-text">Kadis Kominfo Sulut selaku Pembina</p>
+                  <p class="card-text" style="overflow-wrap: break-word;">Kadis Kominfo Sulut selaku Pembina</p>
                 </div>
               </div>
             </button>
@@ -87,7 +87,7 @@
               </div>
               <div class="card-body p-3">
                 <h5 class="card-title mb-0">dr. Kartika Devi Tanos, MARS</h5>
-                <p class="card-text">Kadis PPA Sulut selaku Pembina</p>
+                <p class="card-text" style="overflow-wrap: break-word;">Kadis PPA Sulut selaku Pembina</p>
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@
               </div>
               <div class="card-body p-3">
                 <h5 class="card-title mb-0">Fery Sangian</h5>
-                <p class="card-text">Kabankesbangpol Sulut selaku Pembina</p>
+                <p class="card-text" style="overflow-wrap: break-word;">Kabankesbangpol Sulut selaku Pembina</p>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="card-body p-3">
                   <h5 class="card-title mb-0">Pdt. Lucky I. Rumopa, MTh.</h5>
-                  <p class="card-text">FKUB Sulut selaku Pembina</p>
+                  <p class="card-text" style="overflow-wrap: break-word;">FKUB Sulut selaku Pembina</p>
                 </div>
               </div>
             </button>
